@@ -1,0 +1,12 @@
+C:\BayCare-ESE\Training\Reactivities\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\BayCare-ESE\Training\Reactivities\Domain\bin\Debug\net5.0\Domain.dll
+C:\BayCare-ESE\Training\Reactivities\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\BayCare-ESE\Training\Reactivities\Domain\bin\Debug\net5.0\Domain.pdb
+C:\BayCare-ESE\Training\Reactivities\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\BayCare-ESE\Training\Reactivities\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\BayCare-ESE\Training\Reactivities\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\BayCare-ESE\Training\Reactivities\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\BayCare-ESE\Training\Reactivities\Domain\obj\Debug\net5.0\Domain.dll
+C:\BayCare-ESE\Training\Reactivities\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\BayCare-ESE\Training\Reactivities\Domain\obj\Debug\net5.0\Domain.pdb
+C:\BayCare-ESE\Training\Reactivities\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
