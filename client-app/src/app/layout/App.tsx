@@ -1,28 +1,36 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import NavBar from './NavBar';
 import { Container } from 'semantic-ui-react';
 import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard';
-import LoadingComponet from './LoadingComponent';
-import { useStore } from '../stores/store';
 import { observer } from 'mobx-react-lite';
+import { Route, useLocation } from 'react-router';
+import HomePage from '../../features/activities/home/HomePage';
+import ActivityForm from '../../features/activities/form/ActivityForm';
+import ActivityDetails from '../../features/activities/details/ActivityDetails';
 
 function App() {
-  const {activityStore} =  useStore();
-  
-useEffect(() => {
-    activityStore.loadingActivities();
-  }, [activityStore]) //ensures it only runs one time. 
- 
 
-  if (activityStore.loadingInitial) return <LoadingComponet content='Loading the App!' />
+  const location = useLocation();
+  
   return (
     <> {/*//in place of a div or <Fragment></Fragment>*/} 
-      <NavBar />
-         <Container style={{marginTop: '7em'}}> 
-            <ActivityDashboard />            
-        </Container>    
+     <Route exact path='/'  component={HomePage} />
+     <Route 
+        path={'/(.+)'}
+        render={() => (
+          <>
+            <NavBar />
+            <Container style={{marginTop: '7em'}}> 
+                <Route exact path='/'  component={HomePage} />  
+                <Route exact path='/activities'  component={ActivityDashboard} /> {/* highlighted in blue because its an observer */}
+                <Route path='/activities/:id'  component={ActivityDetails} />
+                <Route key={location.key} path={['/createActivity', '/manage/:id']} component={ActivityForm} />          
+            </Container>    
+          </>
+        )}
+     />      
     </>
   );
 }
 
-export default observer(App);
+export default observer(App);  //DON'T FORGET TO SET TO OBSERVER FOR THE STATE MANAGEMENT
