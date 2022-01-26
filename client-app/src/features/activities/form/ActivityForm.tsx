@@ -53,9 +53,11 @@ export default observer(function ActivytForm() {
             createActivity(newActivity).then(() => history.push(`/activities/${newActivity.id}`))            
         } else {
             updateActivity(activity).then(() => history.push(`/activities/${activity.id}`))
-        }      
-
+        }
     }
+
+
+        
    
     
     if (loadingInitial) return <LoadingComponent content='Loading activity...' />
