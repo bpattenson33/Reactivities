@@ -10,8 +10,9 @@ interface Props {
 
 export default function ActivityListItem({activity}: Props) {
   
+    // eslint-disable-next-line
     const [target] = useState('');
-
+    // eslint-disable-next-line
     function handleActivityDelete(e: SyntheticEvent<HTMLButtonElement>, id: string) {
         setTarget(e.currentTarget.name);       
     }

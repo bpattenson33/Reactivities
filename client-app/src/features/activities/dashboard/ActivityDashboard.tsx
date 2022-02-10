@@ -14,7 +14,7 @@ export default observer (function ActivityDashboard() {
         if(activityRegistry.size <= 1) loadingActivities();
     }, [activityRegistry.size, loadingActivities]) //ensures it only runs one time.  
 
-     if (activityStore.loadingInitial) return <LoadingComponet content='Loading the App!' />
+     if (activityStore.loadingInitial) return <LoadingComponet content='Loading Activities!' />
     return (
         <><Grid>
             <Grid.Column width='10'>

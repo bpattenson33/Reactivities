@@ -6,7 +6,7 @@ import LoadingComponent from '../../../app/layout/LoadingComponent';
 import { useStore } from '../../../app/stores/store';
 import { Link } from 'react-router-dom';
 import {v4 as uuid} from 'uuid';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import MyTextInput from '../../../app/common/form/MyTextInput';
 import MyTextArea from '../../../app/common/form/MyTextArea';
@@ -55,9 +55,7 @@ export default observer(function ActivytForm() {
             updateActivity(activity).then(() => history.push(`/activities/${activity.id}`))
         }
     }
-
-
-        
+      
    
     
     if (loadingInitial) return <LoadingComponent content='Loading activity...' />
@@ -91,7 +89,6 @@ export default observer(function ActivytForm() {
             </Formik>
             
         </Segment>
-        )   
-    
+        )      
 })
 

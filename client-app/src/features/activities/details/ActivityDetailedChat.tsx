@@ -5,8 +5,7 @@ import {Segment, Header, Comment, Form, Button} from 'semantic-ui-react'
 export default observer(function ActivityDetailedChat() {
     return (
         <>
-            <Segment
-                textAlign='center'
+            <Segment                
                 attached='top'
                 inverted
                 color='teal'

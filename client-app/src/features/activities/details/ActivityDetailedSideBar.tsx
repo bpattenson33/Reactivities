@@ -6,13 +6,12 @@ import { observer } from 'mobx-react-lite'
 export default observer(function ActivityDetailedSidebar () {
     return (
         <>
-            <Segment
-                textAlign='center'
+            <Segment            
                 style={{ border: 'none' }}
                 attached='top'
                 secondary
                 inverted
-                color='teal'
+                color='teal'                
             >
                 3 People Going
             </Segment>
