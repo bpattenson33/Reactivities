@@ -14,16 +14,17 @@ export default observer (function ActivityDashboard() {
         if(activityRegistry.size <= 1) loadingActivities();
     }, [activityRegistry.size, loadingActivities]) //ensures it only runs one time.  
 
-     if (activityStore.loadingInitial) return <LoadingComponet content='Loading Activities!' />
+    if (activityStore.loadingInitial) return <LoadingComponet content='Loading Activities!' />
     return (
-        <><Grid>
-            <Grid.Column width='10'>
-                <ActivityList />
-            </Grid.Column>
-            <Grid.Column width='6'>
-                <ActivityFilters />
-            </Grid.Column>    
-        </Grid>                
+        <>
+            <Grid>
+                <Grid.Column width='10'>
+                    <ActivityList />
+                </Grid.Column>
+                <Grid.Column width='6'>
+                    <ActivityFilters />
+                </Grid.Column>    
+            </Grid>                
         </>
     )
 })

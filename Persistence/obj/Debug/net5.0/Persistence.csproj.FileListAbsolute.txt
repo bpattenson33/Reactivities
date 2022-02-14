@@ -12,4 +12,4 @@ C:\BayCare-ESE\Training\Reactivities\Persistence\obj\Debug\net5.0\Persistence.cs
 C:\BayCare-ESE\Training\Reactivities\Persistence\obj\Debug\net5.0\Persistence.dll
 C:\BayCare-ESE\Training\Reactivities\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 C:\BayCare-ESE\Training\Reactivities\Persistence\obj\Debug\net5.0\Persistence.pdb
-C:\BayCare-ESE\Training\Reactivities\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+C:\BayCare-ESE\Training\Reactivities\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
