@@ -14,4 +14,4 @@ C:\BayCare-ESE\Training\Reactivities\Application\obj\Debug\net5.0\Application.cs
 C:\BayCare-ESE\Training\Reactivities\Application\obj\Debug\net5.0\Application.dll
 C:\BayCare-ESE\Training\Reactivities\Application\obj\Debug\net5.0\ref\Application.dll
 C:\BayCare-ESE\Training\Reactivities\Application\obj\Debug\net5.0\Application.pdb
-C:\BayCare-ESE\Training\Reactivities\Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
+C:\BayCare-ESE\Training\Reactivities\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
